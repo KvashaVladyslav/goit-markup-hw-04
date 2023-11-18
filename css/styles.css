@@ -80,7 +80,7 @@ ul {
     color: #404bbf;
 }
 
-.contacts-link::after {
+.contacts-link:hover::after {
     content: '';
     position: absolute;
     left: 0;
