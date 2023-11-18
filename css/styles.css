@@ -421,7 +421,7 @@ ul {
     margin: 0;
 }
 
-.svg-container-our-team-list {
+.svg-container-our-team {
     display: flex;
     justify-content: center;
     gap: 24px;
