@@ -56,6 +56,7 @@ ul {
 .studio {
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link.studio::after {
@@ -67,7 +68,6 @@ ul {
     background-color: #404bbf;
     border-radius: 2px;
     width: 100%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -519,8 +519,7 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-text:hover,
-.div-text:focus {
+.our-portfolio-list-items:hover .div-text {
     transform: translateY(0%);
     background-color: #4D5AE5;
 }
